@@ -13,7 +13,7 @@ This is a Django web application that allows you to manage and view a collection
 
 ## Installation
 1. Clone the repository <br>
-``` git clone https://github.com/UsmanRepos/django-rest-frame-work-school-app.git ``` <br><br>
+``` git clone https://github.com/UsmanRepos/django-frame-work-movies-app.git ``` <br><br>
 2. Install the required packages <br>
 ``` pip install -r requirements.txt ``` <br><br>
 3. Run migrations <br>
