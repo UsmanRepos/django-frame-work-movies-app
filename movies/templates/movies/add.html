@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Movie</title>
+</head>
+<body>
+  <form action = "/movies/add" method="post">
+    {% csrf_token %}
+    <div>
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" placeholder="Enter movie title">
+    </div><br />
+    <div>
+      <label for="year">Year:</label>
+      <input type="number" id="year" name="year" placeholder="Enter movie release year">
+    </div><br />
+    <div>
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" placeholder="Enter movie description"></textarea>
+    </div><br />
+    <div>
+      <input type="submit" value="Add Movie">
+    </div>
+  </form>
+</body>
+</html>
